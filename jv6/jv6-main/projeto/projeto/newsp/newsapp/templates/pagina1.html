@@ -1,0 +1,9 @@
+<form action="{% url 'index' %}" method="POST" enctype="multipart/form-data">{% csrf_token %}
+
+    <input type="file" name="my_file">
+    <input type="submit" value="enviar">
+    <br>
+    <br>
+    <input type="checkbox">
+
+</form>
